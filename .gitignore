@@ -1,3 +1,4 @@
+# OpenClaw workspace - secrets and state
 .env
 .env.*
 !.env.example
@@ -5,3 +6,52 @@
 openclaw.json
 *.bak
 memory/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+node_modules/
+jspm_packages/
+build/Release
+coverage
+*.lcov
+.nyc_output
+
+# Cache
+.cache
+.parcel-cache
+.npm
+.eslintcache
+.stylelintcache
+.node_repl_history
+*.tgz
+.yarn-integrity
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# Build output
+.next
+out
+.nuxt
+dist
+*.tsbuildinfo
